@@ -1,0 +1,42 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="top-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A72" />
+      <stop offset="100%" stop-color="#DA291C" />
+    </linearGradient>
+    <linearGradient id="side-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DA291C" />
+      <stop offset="100%" stop-color="#A11A11" />
+    </linearGradient>
+    <linearGradient id="front-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B01E0A" />
+      <stop offset="100%" stop-color="#7A1407" />
+    </linearGradient>
+    <filter id="logo-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#logo-glow)">
+    <!-- Top Bar -->
+    <path d="M40 40L80 20L110 35L70 55L40 40Z" fill="url(#top-grad)"/>
+    <path d="M40 40L70 55V65L40 50V40Z" fill="url(#front-grad)"/>
+    <path d="M70 55L110 35V45L70 65V55Z" fill="url(#side-grad)"/>
+    
+    <!-- Middle Diagonal -->
+    <path d="M70 55L40 90V100L70 65V55Z" fill="url(#side-grad)"/>
+    <path d="M70 55L100 40V50L70 65V55Z" fill="url(#front-grad)"/>
+    
+    <!-- Bottom Bar -->
+    <path d="M40 90L70 110V120L40 100V90Z" fill="url(#front-grad)"/>
+    <path d="M70 110L110 90V100L70 120V110Z" fill="url(#side-grad)"/>
+    <path d="M40 90L70 70L110 90L70 110L40 90Z" fill="url(#top-grad)"/>
+
+    <!-- Glossy Highlights -->
+    <path d="M42 41L78 23L105 36.5L70 54L42 41Z" stroke="white" stroke-opacity="0.2" stroke-width="0.5"/>
+    <path d="M42 91L78 73L105 86.5L70 104L42 91Z" stroke="white" stroke-opacity="0.2" stroke-width="0.5"/>
+  </g>
+</svg>
