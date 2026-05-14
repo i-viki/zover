@@ -4,174 +4,416 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- SEO & Brand -->
+  <!-- SEO & Brand Foundation -->
   <title>Zover | The Future of Ownable Identity</title>
   <meta name="description" content="Zover is a premium brand framework for global scalability. Discover the transformation from functional concept to ownable identity.">
-  <meta name="keywords" content="Zover, Brand Identity, Scalable Platforms, Naming Framework">
+  <meta name="keywords" content="Zover, Brand Identity, Scalable Platforms, Naming Framework, SaaS Architecture">
   
-  <!-- Open Graph / Social Media -->
+  <!-- Social Media: Open Graph & Twitter Cards -->
   <meta property="og:title" content="Zover | The Future of Ownable Identity">
   <meta property="og:description" content="Explore the Zover brand framework—short, ownable, and globally pronounceable.">
   <meta property="og:image" content="zoverlogo.svg">
   <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zover | The Future of Ownable Identity">
+  <meta name="twitter:description" content="Explore the Zover brand framework—short, ownable, and globally pronounceable.">
+  <meta name="twitter:image" content="zoverlogo.svg">
+  
+  <!-- Performance: Preload Critical Assets -->
+  <link rel="preload" href="fonts/Zover-Sans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Zover-Sans-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  
+  <!-- Browser Tab Identity & PWA -->
+  <link rel="icon" href="zoverlogo.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#070709">
   
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Hero Section - Cinematic Entry -->
-  <section class="section-black">
-    <div class="container">
-      <div class="hero">
-        <div class="hero-content reveal">
-          <div class="brand-logo">
-            <img src="zoverlogo.svg" alt="Zover Logo" width="120" height="120">
-          </div>
-          <h1 class="brand-display">Zover</h1>
-          <p class="brand-tagline reveal delay-1">Short · Ownable · Globally pronounceable · Scalable</p>
-        </div>
+  <!-- Top Sticky Navigation (Outside Rails per SKILL.md specification) -->
+  <header class="navbar-wrapper">
+    <nav class="navbar" aria-label="Main Navigation">
+      <a href="#" class="nav-logo">
+        <img src="zoverlogo.svg" alt="Zover Brand Mark" width="36" height="36">
+        <span class="logo-text">Zover</span>
+      </a>
+      <div class="nav-links">
+        <a href="#architecture" class="nav-link">Architecture</a>
+        <a href="#transformation" class="nav-link">Evolution</a>
+        <a href="#core" class="nav-link">Principles</a>
+        <a href="#ecosystem" class="nav-link">Ecosystem</a>
       </div>
+      <div class="nav-actions">
+        <a href="#cta" class="btn btn-primary btn-sm">Get Started</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Exposed Grid / Rail Bounded Structure -->
+  <main class="page-rails">
+
+    <!-- 1. Hero Section -->
+    <section class="hero-section" aria-label="Hero Introduction">
+      <!-- Internal decorative dashed rail guidelines -->
+      <div class="hero-guides" aria-hidden="true">
+        <div class="hero-guide-line hero-guide-left"></div>
+        <div class="hero-guide-line hero-guide-right"></div>
+      </div>
+
+      <!-- Top Centerpiece Brand Emblem -->
+      <div class="hero-logo-wrapper reveal">
+        <div class="logo-ambient-glow" aria-hidden="true"></div>
+        <img src="zoverlogo.svg" alt="Zover Brand Mark" class="hero-logo-img" width="100" height="100">
+      </div>
+
+      <div class="hero-badge reveal delay-1">
+        <span class="badge-dot animate-pulse" aria-hidden="true"></span>
+        <span class="badge-text">Concept-to-Identity Architecture</span>
+      </div>
+
+      <h1 class="hero-title reveal delay-2">
+        Zover<br>
+        <span class="title-gradient">Ownable Identity</span>
+      </h1>
+
+      <p class="hero-subtitle reveal delay-3">
+        Short · Ownable · Globally pronounceable · Scalable framework engineered for instant domain viability and elite recall.
+      </p>
+
+      <div class="hero-actions reveal delay-4">
+        <a href="#architecture" class="btn btn-accent btn-md">Explore Framework</a>
+        <a href="#ecosystem" class="btn btn-outline btn-md">Ecosystem View</a>
+      </div>
+
+      <div class="hero-bottom-guide" aria-hidden="true">
+        <div class="hero-bottom-line"></div>
+      </div>
+    </section>
+
+    <!-- Structural Section Divider -->
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- 2. Naming Architecture (Sticky Side-by-Side Pattern) -->
+    <div class="rail-bounded">
+      <section id="architecture" class="side-by-side" aria-label="Naming Architecture Framework">
+        <div class="side-left">
+          <div class="sticky-header">
+            <p class="section-label">Architecture</p>
+            <h2 class="section-title">Naming Architecture</h2>
+            <p class="section-description">Concept-to-Identity Transformation framework engineered for instant domain viability and uncompromised global protection.</p>
+          </div>
+        </div>
+        
+        <div class="side-right">
+          <div class="reveal">
+            <h3 class="content-subtitle">Zover Framework Specifications</h3>
+            
+            <div class="spec-table-wrapper">
+              <table class="spec-table">
+                <tbody>
+                  <tr>
+                    <td class="spec-label">Concept origin</td>
+                    <td class="spec-value">"Solver"</td>
+                  </tr>
+                  <tr>
+                    <td class="spec-label">Phonetic mutation</td>
+                    <td class="spec-value">S → Z, l dropped, -ver retained</td>
+                  </tr>
+                  <tr>
+                    <td class="spec-label">Character count</td>
+                    <td class="spec-value"><span class="highlight-pill">5 letters</span></td>
+                  </tr>
+                  <tr>
+                    <td class="spec-label">Syllables</td>
+                    <td class="spec-value">2 (Zo · ver)</td>
+                  </tr>
+                  <tr>
+                    <td class="spec-label">Domain viability</td>
+                    <td class="spec-value"><span class="text-accent">Coined word — highly ownable</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="info-text">
+                <h4>Trademark Readiness</h4>
+                <p>Transitioning from a common utility descriptor to a unique coined string instantly secures clean search clearance across targeted global markets.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
 
-  <!-- Identity Section -->
-  <section class="section-white">
-    <div class="container">
-      <h2 class="sr-only">Brand Naming Framework</h2>
+    <!-- Structural Section Divider -->
+    <div class="section-divider" aria-hidden="true"></div>
 
-      <div class="editorial-card reveal delay-2">
-        <h3 class="section-title">Naming Architecture</h3>
-        <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
-          <div style="flex: 1; min-width: 250px;">
-            <h4 class="card-heading">Zover</h4>
-            <p class="brand-tagline">Concept-to-Identity Transformation</p>
-          </div>
-          <div style="flex: 2; min-width: 280px;">
-            <table class="mutation-table">
-              <tr>
-                <td>Concept origin</td>
-                <td>"Solver"</td>
-              </tr>
-              <tr>
-                <td>Phonetic mutation</td>
-                <td>S → Z, l dropped, -ver retained</td>
-              </tr>
-              <tr>
-                <td>Character count</td>
-                <td>5 letters</td>
-              </tr>
-              <tr>
-                <td>Syllables</td>
-                <td>2 (Zo · ver)</td>
-              </tr>
-              <tr>
-                <td>Domain viability</td>
-                <td>Coined word — highly ownable</td>
-              </tr>
-            </table>
-          </div>
+    <!-- 3. Transformation Chain Workflow -->
+    <div class="rail-bounded">
+      <section id="transformation" class="chain-container" aria-label="Evolution Progression">
+        <div class="section-header" style="text-align: center; margin-left: auto; margin-right: auto;">
+          <p class="section-label">Evolution Workflow</p>
+          <h2 class="section-title">Transformation Chain</h2>
+          <p class="section-description" style="margin-left: auto; margin-right: auto;">The systematic progression from a functional root descriptor to an optimized digital asset.</p>
         </div>
-      </div>
 
-      <div class="editorial-card reveal">
-        <h3 class="section-title">Transformation Chain</h3>
-        <div class="chain-container">
-          <div class="step-box">
-            <div class="step-label">Root</div>
-            <div class="step-word">Solver</div>
-            <div class="step-sub">utility</div>
+        <div class="chain-grid">
+          
+          <!-- Phase 01 -->
+          <div class="chain-node reveal">
+            <div class="node-header">
+              <span class="node-phase">Phase 01</span>
+              <span class="node-tag">Root</span>
+            </div>
+            <div class="node-body">
+              <div class="node-word">Solver</div>
+              <p class="node-sub">Descriptive Utility</p>
+            </div>
           </div>
-          <div class="arrow">→</div>
-          <div class="step-box">
-            <div class="step-label">Shift</div>
-            <div class="step-word">Zolver</div>
-            <div class="step-sub">S → Z</div>
+
+          <div class="chain-connector reveal delay-1" aria-hidden="true">
+            <div class="connector-arrow">→</div>
           </div>
-          <div class="arrow">→</div>
-          <div class="step-box">
-            <div class="step-label">Compress</div>
-            <div class="step-word">Zover</div>
-            <div class="step-sub">tightened</div>
+
+          <!-- Phase 02 -->
+          <div class="chain-node reveal delay-1">
+            <div class="node-header">
+              <span class="node-phase">Phase 02</span>
+              <span class="node-tag">Shift</span>
+            </div>
+            <div class="node-body">
+              <div class="node-word">Zolver</div>
+              <p class="node-sub">Sonic Onset (S → Z)</p>
+            </div>
           </div>
-          <div class="arrow">→</div>
-          <div class="step-box final">
-            <div class="step-label">Identity</div>
-            <div class="step-word">Zover™</div>
-            <div class="step-sub">ownable</div>
+
+          <div class="chain-connector reveal delay-2" aria-hidden="true">
+            <div class="connector-arrow">→</div>
           </div>
+
+          <!-- Phase 03 -->
+          <div class="chain-node reveal delay-2">
+            <div class="node-header">
+              <span class="node-phase">Phase 03</span>
+              <span class="node-tag">Compress</span>
+            </div>
+            <div class="node-body">
+              <div class="node-word">Zover</div>
+              <p class="node-sub">Frictionless Flow</p>
+            </div>
+          </div>
+
+          <div class="chain-connector reveal delay-3" aria-hidden="true">
+            <div class="connector-arrow">→</div>
+          </div>
+
+          <!-- Phase 04 (Finalized Identity) -->
+          <div class="chain-node node-final reveal delay-3">
+            <div class="node-header">
+              <span class="node-phase text-white-80">Finalized</span>
+              <span class="node-tag tag-accent">Identity</span>
+            </div>
+            <div class="node-body">
+              <div class="node-word text-white">Zover™</div>
+              <p class="node-sub text-white-80">Protected Sovereign Brand</p>
+            </div>
+          </div>
+
         </div>
-      </div>
-
-      <div class="editorial-card reveal">
-        <h3 class="section-title">Brand Core</h3>
-        <ul class="criteria-list">
-          <li class="criterion">
-            <div class="criterion-dot"></div>
-            <div class="criterion-content">
-              <h4>Short & Memorable</h4>
-              <p>Built for instant recall and 5-letter impact.</p>
-            </div>
-          </li>
-          <li class="criterion">
-            <div class="criterion-dot"></div>
-            <div class="criterion-content">
-              <h4>Phonetically Unique</h4>
-              <p>Z-onset creates a distinct and premium sonic profile.</p>
-            </div>
-          </li>
-          <li class="criterion">
-            <div class="criterion-dot"></div>
-            <div class="criterion-content">
-              <h4>Global Readiness</h4>
-              <p>Easily pronounced across major languages and regions.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
+      </section>
     </div>
-  </section>
 
-  <!-- Ecosystem Section -->
-  <section class="section-black">
-    <div class="container">
-      <div class="dark-card reveal">
-        <h3 class="section-title">Future Ecosystem</h3>
-        <div class="extensions-grid">
-          <div class="extension-card">
-            <h4 class="ui-heading">Core Platforms</h4>
-            <ul class="extension-list">
-              <li>Zover Cloud</li>
-              <li>Zover Pay</li>
-              <li>Zover API</li>
+    <!-- Structural Section Divider -->
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- 4. Brand Core Principles (Dashed Internal Grid Pattern) -->
+    <div class="rail-bounded">
+      <section id="core" class="py-section" aria-label="Brand Core Principles">
+        <div class="section-header" style="padding-left: 1.5rem; padding-right: 1.5rem;">
+          <p class="section-label">Core Criteria</p>
+          <h2 class="section-title">Brand Core Principles</h2>
+          <p class="section-description">Engineered to clear the essential strategic hurdles of high-growth corporate naming architecture.</p>
+        </div>
+
+        <!-- Responsive Dashed Grid Layout -->
+        <div class="grid-3col">
+          
+          <!-- Cell 1 -->
+          <div class="grid-cell reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3 class="cell-title">Short & Memorable</h3>
+            <p class="cell-desc">Constructed for immediate recall and maximum visual balance. Five distinct letters achieve pristine layout harmony across responsive user interfaces.</p>
+          </div>
+
+          <!-- Cell 2 -->
+          <div class="grid-cell reveal delay-1">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 12L2.5 7.5"/></svg>
+            </div>
+            <h3 class="cell-title">Phonetically Unique</h3>
+            <p class="cell-desc">The hard Z-onset provides a bold, modern sonic foundation that cuts through conversational static and establishes instant premium authority.</p>
+          </div>
+
+          <!-- Cell 3 -->
+          <div class="grid-cell reveal delay-2">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3 class="cell-title">Global Readiness</h3>
+            <p class="cell-desc">Frictionless internal vowel sequencing guarantees flawless pronunciation consistency spanning core global enterprise demographics.</p>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- Structural Section Divider -->
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- 5. Future Ecosystem (Ambient Dot-Pattern Alternating Rhythm) -->
+    <section id="ecosystem" class="relative" aria-label="Ecosystem Scalability">
+      <!-- Full horizontal radial-gradient dot pattern layer -->
+      <div class="dot-pattern absolute inset-0" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0;" aria-hidden="true"></div>
+      
+      <div class="rail-bounded relative py-section">
+        <div class="section-header" style="padding-left: 1.5rem; padding-right: 1.5rem;">
+          <p class="section-label">Scalability</p>
+          <h2 class="section-title">Future Ecosystem</h2>
+          <p class="section-description">Extending brand authority across a secure, multi-platform infrastructure architecture.</p>
+        </div>
+
+        <!-- 2-Column Internal Dashed Grid -->
+        <div class="grid-2col">
+          
+          <!-- Column 1 -->
+          <div class="grid-cell reveal">
+            <div class="ecosystem-badge">Infrastructure</div>
+            <h3 class="cell-title" style="margin-top: 0.75rem;">Core Platforms</h3>
+            <p class="cell-desc" style="margin-bottom: 1.5rem;">Foundational network backbones engineered for absolute resilience.</p>
+            
+            <ul class="ecosystem-list">
+              <li>
+                <span class="list-dot" aria-hidden="true"></span>
+                <div class="list-text">
+                  <strong>Zover Cloud</strong>
+                  <span>Distributed, high-availability zero-latency node environments.</span>
+                </div>
+              </li>
+              <li>
+                <span class="list-dot" aria-hidden="true"></span>
+                <div class="list-text">
+                  <strong>Zover Pay</strong>
+                  <span>Encrypted peer-to-peer enterprise financial settlement rails.</span>
+                </div>
+              </li>
+              <li>
+                <span class="list-dot" aria-hidden="true"></span>
+                <div class="list-text">
+                  <strong>Zover API</strong>
+                  <span>REST and GraphQL data distribution microservices layer.</span>
+                </div>
+              </li>
             </ul>
           </div>
-          <div class="extension-card">
-            <h4 class="ui-heading">Applications</h4>
-            <ul class="extension-list">
-              <li>"Built with Zover"</li>
-              <li>"Zover-powered"</li>
+
+          <!-- Column 2 -->
+          <div class="grid-cell reveal delay-1">
+            <div class="ecosystem-badge">Integrations</div>
+            <h3 class="cell-title" style="margin-top: 0.75rem;">Developer Applications</h3>
+            <p class="cell-desc" style="margin-bottom: 1.5rem;">Client-facing trust anchors built natively for digital products.</p>
+            
+            <ul class="ecosystem-list">
+              <li>
+                <span class="list-check" aria-hidden="true">✓</span>
+                <div class="list-text">
+                  <strong>"Built with Zover"</strong>
+                  <span>Premium software authentication standard for platform partners.</span>
+                </div>
+              </li>
+              <li>
+                <span class="list-check" aria-hidden="true">✓</span>
+                <div class="list-text">
+                  <strong>"Zover-powered"</strong>
+                  <span>Cryptographically signed consumer verification modules.</span>
+                </div>
+              </li>
             </ul>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
-  <section class="section-white">
-    <div class="container">
-      <div class="editorial-card cta-card reveal">
-        <h3 class="section-title">Ready to scale with Zover?</h3>
-        <p class="cta-text">The transformation from concept to identity begins here.</p>
-        <button class="btn-primary">Coming Soon</button>
-        <div style="margin-top: 4rem; border-top: 1px solid #eee; padding-top: 2rem;">
-          <p style="font-size: 12px; color: #999; letter-spacing: 1px; text-transform: uppercase;">
-            &copy; 2026 Zover. All Rights Reserved.
-          </p>
         </div>
       </div>
+    </section>
+
+    <!-- Structural Section Divider -->
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <!-- 6. Call To Action (Bottom Grid Content) -->
+    <section id="cta" class="cta-section rail-bounded" aria-label="Call to Action">
+      <div class="reveal">
+        <div class="cta-glow" aria-hidden="true"></div>
+        <h2 class="cta-title">Ready to scale with Zover?</h2>
+        <p class="cta-subtitle">The transformation from abstract concept to unshakeable global identity starts here.</p>
+        
+        <div class="cta-actions">
+          <button class="btn btn-primary btn-lg" onclick="alert('Access framework updates initiated. Integration specifications coming soon.')">Coming Soon</button>
+          <a href="#architecture" class="btn btn-outline btn-lg">Review Specifications</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Base Footer Container (Outside Rails) -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <a href="#" class="footer-logo">
+          <img src="zoverlogo.svg" alt="Zover Mark" width="24" height="24">
+          <span>Zover</span>
+        </a>
+        <p class="footer-desc">Ownable Brand Identity Architecture &amp; Scalable Frameworks</p>
+      </div>
+      <div class="footer-right">
+        <p class="copyright">
+          <span>&copy; 2026 Zover. All Rights Reserved.</span>
+          <span class="footer-divider">|</span>
+          <span style="text-transform: none; letter-spacing: normal;">Built by <a href="https://jayavignesh.dev" class="footer-link" target="_blank" rel="noopener noreferrer">jv</a></span>
+        </p>
+      </div>
     </div>
-  </section>
+  </footer>
+
+  <!-- Native Performant Reveal Observer Execution -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.15
+      };
+
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.reveal').forEach(element => {
+        revealObserver.observe(element);
+      });
+    });
+  </script>
 
 </body>
 </html>

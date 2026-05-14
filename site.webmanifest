@@ -1,0 +1,16 @@
+{
+  "name": "Zover Brand Architecture",
+  "short_name": "Zover",
+  "icons": [
+    {
+      "src": "zoverlogo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#070709",
+  "background_color": "#070709",
+  "display": "standalone",
+  "start_url": "/"
+}
